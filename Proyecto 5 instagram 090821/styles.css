@@ -1,0 +1,174 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    border: none;
+    text-decoration: none;
+    font-size: 11pt;
+}
+:root{
+    --main-color: rgb(156, 156, 156);
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-color);
+    width: 100vw;
+    height: 100vh;
+}
+.bg{
+    width: 916px;
+    height: 700px;
+    background-color:#fff;
+    display: flex;
+    flex-direction: row;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    width: 406px;
+    height: 100%;
+    padding: 30px;
+    margin: auto;
+}
+/* PERFIL */
+.perfil{
+    display: flex;
+    align-items: center;
+}
+.img_perfil{
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    background-image: url(img/perrito_perfil.jpg);
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.user_name{
+    font-weight: bold;
+    font-size: 15pt;
+}
+.city{
+    font-size: 11pt;
+    color: var(--main-color);
+}
+.options_user{
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+    width: 30px;
+
+}
+.options_user span{
+    background-color: var(--main-color);
+    height: 6px;
+    width: 6px;
+    border-radius: 50%;
+
+}
+.post_image{
+    width: 510px;
+    height: 100%;
+    background-image: url(img/foto_post.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.post_icons{
+    height: 25px;
+    width: 100%;
+    display: flex;
+    margin: 20px 0;
+}
+/* PERFIL */
+
+
+#share{
+    margin-left: 220px;
+}
+.icon{
+    height: 28px;
+}
+
+.post_text{
+    width: 100%;
+    color: rgb(65, 65, 65);
+    padding: 20px 0 10px;
+}
+.userLinkName{
+    font-weight: bold;
+    color: #000;
+    display: inline-block;
+}
+
+/* COMENTARIOS */
+.all_coments{
+    display: flex;
+    margin: 10px 0px;
+}
+#numbComments{
+    color: var(--main-color);
+}
+
+/* CAJA COMENTARIOS*/
+.box{  
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* margin: 5px 0px;
+    padding:5px 0; */
+}
+.commentBox{
+    width: 100%;
+    margin-left: auto;
+    height: 600px;
+    overflow: scroll;
+} 
+.commentText{
+    display: inline-flex;
+
+}
+.perfilDog , .perfilFoxy{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+} 
+#perfilDog2{
+    
+    background-image: url(img/perfil_comentario_perro1.jpg);
+   
+}
+.text{
+    margin-right: auto;
+    padding: 0 10px;
+}
+
+
+/* barra inferior de comentarios* INICIO*/
+.comments{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    border-top: rgb(136, 136, 136) 0.2px solid;
+}
+#submit{
+    display: flex;
+}
+.icon_comment{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    background-color: var(--main-color);
+    border-radius: 50%;
+}
+.publish{
+    color: #3EA9E5;
+    margin-left: auto;
+}
+/* barra inferior de comentarios FIN*/
